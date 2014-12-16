@@ -1,0 +1,13 @@
+/*
+Estilos Base
+*/
+/*@import url("reset.css");*/
+@import url("layout.css");
+@import url("html.css");
+
+/*
+Estilos Generales
+*/
+@import url("kwicks.css");
+@import url("clases.css");
+@import url("form.css");

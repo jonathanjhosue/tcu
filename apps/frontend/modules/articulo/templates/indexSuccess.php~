@@ -1,0 +1,28 @@
+<h1>Articulos</h1>
+
+<table>
+  <thead>
+
+  </thead>
+  <tbody>
+    <?php foreach ($articulo_list as $articulo): ?>
+    <tr>     
+      <td><a href="<?php echo url_for('articulo/show?id='.$articulo->getId()) ?>"><?php echo $articulo->getNombre() ?></a></td>
+      <td><?php echo $articulo->getCreatedAt() ?></td>
+    </tr>    
+      <tr>
+         <td colspan="2"><?php echo $articulo->getDescripcion() ?></td>
+    </tr>
+    <tr>
+        <td>Autor: <?php echo $articulo->getPersona() ?></td>
+        <td>Categoría <?php echo $articulo->getCategoria() ?></td>
+    </tr>
+    <tr >
+        <td colspan="2">    <br><hr/><br></td>
+    </tr>
+
+    <?php endforeach; ?>
+  </tbody>
+</table>
+
+  <a href="<?php echo url_for('articulo/new') ?>">New</a>

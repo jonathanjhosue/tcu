@@ -1,0 +1,36 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Enlace
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          enlace
+    with_propel_route:     1
+
+    config:
+      actions: ~
+      fields:  
+           descripcion:  { label: Descripción }
+           imagen:  { label: Imágen, help: Se recomiendan imágenes de menos de 150 x 150 pixeles }
+      list:
+          title:    Enlaces
+          display: [=id, =nombre,  web, descripcion]
+          max_per_page: 10
+          object_actions:
+             _edit:      ~
+             _delete:    { label: Borrar , confirm: ¿Estás seguro de borrar el enlace? }
+      filter:
+          display: [nombre, web, descripcion]
+      form:
+              display: [nombre, web, descripcion, imagen]
+      edit:
+          title: Edición de "%%nombre%%"
+          actions:
+            _delete: { label: Borrar, confirm: ¿Estás seguro de borrar el enlace? }
+            _list: { label: Cancelar }
+            _save:   { label: Guardar }
+      new:
+          title: Nuevo Enlace

@@ -1,0 +1,109 @@
+propel:
+
+  tcu:
+    id:           ~
+    codigo:       { type: varchar(10), required: true, index: unique }
+    nombre:       { type: varchar(255), required: true, index: unique }
+    imagen:         { type: varchar(255) }
+    created_at:   ~
+    updated_at:   ~
+
+  persona:
+    _attributes: { phpName: Persona }
+    id:           ~
+    user_id:     { type: integer, foreignTable: sf_guard_user, foreignReference: id, required: true, onDelete: cascade }
+    nombre:       { type: varchar(70), required: true }
+    telefono1:    { type: varchar(20), required: true }
+    telefono2:    { type: varchar(20) }
+    correo:       { type: varchar(70), required: true }
+    datos:        { type: varchar(255) }
+    created_at:   ~
+    updated_at:   ~
+
+  encargado:
+    id:          ~
+    persona_id:  { type: integer, foreignTable: persona, foreignReference: id, required: true }
+    correo:       { type: varchar(50), required: true, index: unique }
+    horario:     { type: varchar(100) }
+    updated_at:   ~
+
+  sitio:
+    id:           ~
+    nombre:       { type: varchar(70), required: true, index: unique }    
+    descripcion:  { type: varchar(255), required: true }
+    direccion:    { type: varchar(255), required: true }
+    imagen:       { type: varchar(255) }
+    web:          { type: varchar(255) }
+    telefono:    { type: varchar(20) }
+    correo:       { type: varchar(70) }
+ 
+  articulo:
+    id:           ~
+    nombre:       { type: varchar(100), required: true, index: unique }
+    descripcion:  { type: varchar(255), required: true }
+    texto:        { type: longvarchar, required: true }
+    persona_id:   { type: integer, foreignTable: persona, foreignReference: id, required: true }
+    fuente:       { type: varchar(255) }
+    tags:         { type: varchar(255) }
+    created_at:   ~
+    updated_at:   ~
+
+  galeria:
+    id:           ~
+    nombre:       { type: varchar(70), required: true }
+    descripcion:  { type: varchar(255), required: true }
+    created_at:   ~
+    updated_at:   ~
+
+  archivo:
+    id:           ~
+    nombre:       { type: varchar(70), required: true }
+    descripcion:  { type: varchar(255), required: true }
+    archivo:      { type: varchar(255), required: true }
+    persona_id:   { type: integer, foreignTable: persona, foreignReference: id, required: true }
+    tipo_id:      { type: integer, foreignTable: tipo, foreignReference: id, required: true }
+    created_at:   ~
+    updated_at:   ~
+
+  foto:
+    id:           ~
+    nombre:       { type: varchar(70), required: true }
+    descripcion:  { type: varchar(255) }
+    imagen:      { type: varchar(255), required: true }
+    persona_id:   { type: integer, foreignTable: persona, foreignReference: id, required: true }
+    galeria_id:   { type: integer, foreignTable: galeria, foreignReference: id, required: true, onDelete: cascade }
+    created_at:   ~
+    updated_at:   ~
+
+  tipo:
+    id:           ~
+    nombre:       { type: varchar(50), required: true, index: unique }
+    imagen:       { type: varchar(255) }
+
+  seccion:
+    id:           ~
+    nombre:       { type: varchar(15), required: true, index: unique }
+    descripcion:  { type: varchar(255), required: true }
+    imagen:       { type: varchar(255) }
+    es_activa:    { type: boolean, required: true, default: 1 }
+    created_at:   ~
+    updated_at:   ~
+
+  subseccion:
+    id:           ~
+    nombre:       { type: varchar(15), required: true }
+    texto:        { type: longvarchar, required: true }
+    seccion_id:   { type: integer, foreignTable: seccion, foreignReference: id, required: true }
+    created_at:   ~
+    updated_at:   ~
+
+  enlace:
+    id:           ~
+    nombre:       { type: varchar(100), required: true }
+    descripcion:  { type: varchar(255), required: true }
+    web:               { type: varchar(255), required: true }
+    imagen:       { type: varchar(255) }
+    created_at:   ~
+    updated_at:   ~
+ 
+  

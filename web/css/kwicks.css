@@ -1,0 +1,68 @@
+ .kwicks {
+     margin: -20px auto 0px auto;
+text-align:center;
+
+     list-style: none;  
+     position: relative;   
+     padding: 0; 
+	 background-image:url(../images/no_flicker.jpg); /*some browsers are to slow when aligning the menu items via jQuery and so the background shines through, this prevents this flickering*/
+
+
+ }  
+ .kwicks li{  
+    display: block;  
+    overflow: hidden;  
+    padding: 0;  
+    cursor: pointer;  
+	float: left;
+	width: 83px;
+	height: 20px;
+	margin-right: 0px;
+	background-image:url(../images/menu.png);
+	background-repeat:no-repeat;
+}
+.kwicks a{
+	display:block;
+	height:20px;
+	text-indent:-9999px;
+	outline:none;
+}
+
+#kwick1 {
+	background-position:0px 0px;
+}
+#kwick2 {
+	background-position:-133px 0px;
+}
+#kwick3 {
+	background-position:-265px 0px;
+}
+#kwick4 { 
+	background-position:-399px 0px;
+}
+#kwick5 { 
+	background-position:-532px 0px;
+}
+#kwick6 { 
+	background-position:-665px 0px;
+}
+
+#kwick1.active, #kwick1:hover { 
+	background-position: 0px bottom;
+}
+#kwick2.active, #kwick2:hover{
+	background-position: -133px bottom;
+}
+#kwick3.active, #kwick3:hover {
+	background-position: -265px bottom;
+}
+#kwick4.active, #kwick4:hover {
+	background-position: -399px bottom; 
+}
+#kwick5.active, #kwick5:hover {
+	background-position: -532px bottom; 
+}
+#kwick6.active, #kwick6:hover {
+	background-position: -665px bottom;
+}
+

@@ -1,0 +1,201 @@
+/* 
+    Document   : layout
+    Created on : 02/01/2009, 02:09:51 PM
+    Author     : jonathan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+html {
+  padding:0px;
+  margin:0px;
+}
+
+/* ----------banner for logo-------------- */
+#banner {
+background-color: #43ADE7;
+text-align: right;
+padding: 0px;
+margin: 0px;
+border-bottom:1px solid #564b47;
+}
+#banner #escudo { 
+     float: left;
+	margin: 0 0 0px 0px;
+     }
+#banner #cintillo {
+    padding:0px;      
+	
+    }
+
+    /* titulo for logo-------------- */
+#Titulo {
+background-color: #43ADE7;
+background-image:url(../images/fondo.jpg);
+background-position:center;
+background-repeat:repeat-x;
+border-bottom:1px solid #564b47;
+text-align: center;
+padding: 0px;
+margin: 0px;
+}
+
+#Titulo h1 {
+display:none;
+    }
+
+#Titulo #escudo {
+     float: left;
+	margin: 0px 0px 0px 20px;
+     }
+
+#Titulo #escudo2 {
+    padding:0px;
+    margin: 0px auto 0px auto;
+
+    }
+     
+
+#Menu {
+margin: -20px 210px 0px 210px;
+text-align:center;
+
+padding: 0px 0px 40px 0px;
+}
+
+
+body {
+  background-image:url(../images/fverdeh.png);
+  background-position:center;
+  background-repeat:repeat-y;
+  font-size: 12px;
+  font-family: Verdana, Arial, SunSans-Regular, Sans-Serif;
+  padding:0px;
+  margin:0px;
+}
+
+
+
+/*  positioning-layers static and absolute */
+
+#left {
+position: absolute;
+left: 0px;
+top:230px;
+width: 210px;
+
+margin:  -10px 0px 0px 0px;
+padding: 0px;
+/*
+border-top: 1px solid #87e0ff;
+
+background:url(images/borde-izq.png) right  repeat-y;
+*/
+}
+
+#content {
+    min-height:700px;
+    overflow:hidden;
+margin: -42px 210px 0px 210px;
+border: 1px solid #87e0ff;
+
+padding: 10px;
+background-color: #ffffff;
+  background-image:url(../images/lmarca.gif);
+  background-repeat:repeat-y;
+  background-position:center;
+}
+
+#right {
+position: absolute;
+right: 0px;
+top:230px;
+width: 210px;
+margin:  -10px 0px 0px 0px;
+padding: 0px;
+/*
+border-top: 1px solid #87e0ff;
+background:url(images/borde-der.png) left  repeat-y;
+*/
+}
+
+#Pie {
+    /*
+background.color: #b3dba1;
+    background-image:url(../images/trama.png);
+background-repeat:repeat-x;
+background-position:bottom;
+    */
+    clear:both;
+
+    margin: 10px 210px 0px 210px;
+padding: 0px 0px 0px 0px;
+background-color: #ffffff;
+border: 1px solid #87e0ff;
+float:none;
+text-align: center;
+}
+
+
+
+
+
+#CajaIzq {
+	width: 201px;
+	float: left;
+	margin-top: 1px;
+	background-image: url(../images/cajaSup.png);
+	background-repeat: no-repeat;
+	background-position: top;
+}
+
+
+
+#CajaIzqInf {
+	background-image: url(../images/cajaInf.png);
+	height: 66px;
+}
+
+
+#CajaDer {
+	float: right;
+	width: 201px;
+	position:relative;
+	background-image: url(../images/cajapSup2.png);
+	background-repeat: no-repeat;
+}
+#CajaDerInf {
+	background-image: url(../images/cajapInf.png);
+	height: 66px;
+	background-repeat: no-repeat;
+}
+
+#CajaContenido {
+	margin-top: 65px;
+	padding-right: 25px;
+	padding-left: 24px;
+	background-image: url(../images/cajap.png);
+	background-repeat: repeat-y;
+	padding-top: 5px;
+}
+
+table#articulo tfoot,table#articulo thead {
+    text-align:center;
+    padding:0px 10px;
+    font-style:italic;
+    
+}
+
+table#articulo tbody {
+    text-align:justify;
+
+}

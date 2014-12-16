@@ -1,0 +1,21 @@
+# data/fixtures/020_jobs.yml
+enlace:
+  enlace_accionsocial:
+    nombre:       Acción Social
+    web:    www.accionsocialucr.com
+    imagen:       a34aa9c588a128be71aed69782e805888776e33d.png
+    descripcion:  Departamento de Acción social de la ucr.
+
+  enlace_ucr:
+    nombre:       Universidad de Costa Rica
+    web:    www.ucr.ac.cr
+    imagen:       ecb028ed3fae5e26e2911b849af013097d2166d8.png
+    descripcion:  Universidad de Costa Rica, sede central.
+
+  enlace_ematricula:
+    nombre:       ematricula
+    web:    www.emaricula.com
+    imagen:      9919344b6c739778052efb7ba4b6301742a6eae7.png
+    descripcion:  Matricula web de la universidad de Costa Rica.
+
+

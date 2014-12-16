@@ -1,0 +1,21 @@
+EL sitio está desarrollado con el framework Symfony.
+Necesita PHP con PDO y el driver MySQL activados. 
+Utiliza mod_rewrite en Apache.
+
+Configuración:
+La conexión con la base de datos se configura  en los archivos 
+databases.yml y propel.ini que se encuentran en la carpeta config.
+El Script de la base de datos es /doc/script.sql 
+
+Necesita tener habilitados en modo escritura las carpeta y subcarpetas de:
+cache, log y web/uploads.
+
+La carpeta web es la carpeta a la que debe apuntar el dominio, subdominio o servidor virtual.
+
+Cualquier duda contactar al correo jhozue@hotmail.com
+
+
+
+
+
+

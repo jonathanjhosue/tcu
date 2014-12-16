@@ -1,0 +1,214 @@
+form{
+    padding:10px;
+display: block;
+border: 1px solid #43ADE7;
+padding: 0px;
+margin-bottom:10px;
+}
+
+form li{
+    list-style-type:none;
+}
+form table{
+    width:auto;
+    border: 0px none #43ADE7;
+}
+
+form table tr:hover{
+    background-color:transparent;
+     
+}
+
+label
+{
+width: 4em;
+text-align: right;
+margin-right: 10px;
+}
+
+input
+{
+    margin-bottom:5px;
+           padding-right:18px;
+background: transparent;
+    background-position:right;
+    background-repeat:no-repeat;
+border: 1px solid #000000;
+
+}
+
+input:hover
+{
+  color:#ffffff;
+  background-color:#43ADE7;
+
+}
+
+/*botones*/
+
+.bingresar, .bguardar, .bbuscar, .bnuevo1, .bnuevo2, .beditar, .bir, .bdescargar, .bborrar, .bcancelar, .bcerrar {
+    padding-right:18px;
+    background-position:right;
+    background-repeat:no-repeat;
+}
+.bingresar{
+    background-image:url('../iconos/usuario.png');
+}
+
+.bguardar{
+    background-image:url('../iconos/guardar.png');
+}
+
+.bbuscar{
+    background-image:url('../iconos/buscar.gif');
+}
+
+.bnuevo1{
+    background-image:url('../iconos/nuevo1.png');
+}
+
+.bnuevo2{
+    background-image:url('../iconos/nuevo2.png');
+}
+
+.beditar{
+    background-image:url('../iconos/editar.png');
+}
+.bcerrar{
+    background-image:url('../iconos/cerrar.png');
+}
+
+.bir{
+    background-image:url('../iconos/ir.png');
+}
+
+.bdescargar{
+    background-image:url('../iconos/descargar.png');
+}
+
+.bborrar{
+    background-image:url('../iconos/borrar.png');
+}
+.bcancelar{
+    background-image:url('../iconos/cancelar.png');
+}
+
+
+
+select {
+ background-color: transparent;
+}
+
+select:hover{
+      color:#ffffff;
+  background-color:#43ADE7;
+}
+
+.submit input {
+    background-position:right;
+    background: transparent;
+    border: 1px solid #d7b9c9;
+}
+
+textarea {
+    background-color: transparent;
+    border: 1px solid #000000;
+}
+textarea:hover{
+      color:#ffffff;
+  background-color:#43ADE7;
+}
+
+fieldset
+{
+    padding:5px;
+    border: 1px solid #000000;
+    color:#000000;
+}
+
+legend
+{
+    background: #b3dba1;
+    border: 1px solid #000;
+    padding: 2px 6px;
+    color:#ffffff;
+}
+
+ .info, .success, .warning, .error, .validation {
+       border: 1px solid;
+       margin: 10px 0px;
+       padding:15px 10px 15px 50px;
+       background-repeat: no-repeat;
+       background-position: 10px center;
+  }
+
+ .info ul, .success ul, .warning ul, .error ul, .validation ul {
+       margin: 0px;
+  }
+
+ .info {
+     color: #00529B;
+     background-color: #BDE5F8;
+     background-image: url('/iconos/info.png');
+ }
+ .success {
+     color: #4F8A10;
+     background-color: #DFF2BF;
+     background-image:url('/iconos/success.png');
+ }
+ .warning {
+     color: #9F6000;
+     background-color: #FEEFB3;
+     background-image: url('/iconos/warning.png');
+ }
+ .error {
+     color: #D8000C;
+     background-color: #FF8888;
+     background-image: url('/iconos/error.png');
+ }
+
+ .flash_notice
+{
+
+  margin: 4px 0;
+  padding: 4px 4px 4px 30px;
+  background: url('../iconos/tick.png') no-repeat 10px 4px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #ffc;
+}
+
+.flash_error
+{
+  margin: 4px 0;
+  padding: 4px 4px 4px 30px;
+  background: url(../iconos/error.png) no-repeat 10px 4px;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: #f33;
+  color: #fff;
+}
+
+ .info img.close, .success img.close, .warning img.close, .error img.close, .validation img.closes {
+     float:right;
+     margin-right:-2px;
+     margin-top:-5px;
+ }
+
+
+
+ul.error_list
+{
+  margin: 0;
+  margin-bottom: 7px;
+  color: #f00;
+  border: none;
+}
+
+ul.error_list li
+{
+  padding: 4px;
+  padding-left: 25px;
+  list-style: none;
+  background: url(../iconos/error.png) no-repeat 4px 4px;
+}

@@ -1,0 +1,6 @@
+# data/fixtures/020_jobs.yml
+tcu:
+  tcu_desechos:
+    codigo:   TC-388
+    nombre:   Manejo de desechos en la región occidental el valle central
+    imagen:     /img/desechos.png

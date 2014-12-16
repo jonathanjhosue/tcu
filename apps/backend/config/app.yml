@@ -1,0 +1,8 @@
+# default values
+#all:
+
+#all:
+#     sf_guard_plugin:
+#        profile_class:      Persona
+#        profile_field_name: user_id
+

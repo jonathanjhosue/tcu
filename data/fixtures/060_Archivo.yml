@@ -1,0 +1,13 @@
+# data/fixtures/020_jobs.yml
+archivo:
+  archivo_video:
+    nombre:       video TCU
+    descripcion:  |
+      video Manejo de desechos. |
+      You have a minimum of 3 years experience in web development with PHP or Java and 
+      you wish to participate to development of Web 2.0 sites using
+      the best frameworks available.
+    archivo:   ../videos/video1.mp4
+    tipo_id:      tipo_video
+    persona_id:   persona_jonathan
+

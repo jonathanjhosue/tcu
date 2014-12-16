@@ -1,0 +1,33 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Encargado
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          encargado
+    with_propel_route:     1
+
+    config:
+      actions: ~
+      fields:  
+        persona_id: { label: Persona }
+      list:    
+        title: Usuario
+        display: [=id, persona, correo,horario]
+        actions:  {}
+        batch_actions: {}
+        object_actions:
+          _edit:      { label: Editar }
+      filter: 
+        class: false
+      form:    
+       display: [persona_id, correo,horario]
+      edit:    
+        title: Edición de Encargado
+        actions:
+          _list: { label: Cancelar }
+          _save:   { label: Guardar }
+      new:     ~

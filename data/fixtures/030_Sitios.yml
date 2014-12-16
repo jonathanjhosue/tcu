@@ -1,0 +1,37 @@
+# data/fixtures/020_jobs.yml
+sitio:
+  sitio_fortech:
+    nombre:       fortech
+    descripcion:  |
+      Encargada de recoleccion de desechos tecnológicos. |
+      You have a minimum of 3 years experience in web development with PHP or Java and 
+      you wish to participate to development of Web 2.0 sites using
+      the best frameworks available.
+    direccion:    |
+      San Ramón, Alajuela. |
+      You have a minimum of 3 years experience in web development with PHP or Java and 
+      you wish to participate to development of Web 2.0 sites using
+      the best frameworks available.
+    imagen:       fortech.png
+    web:          www.fortech.com
+    telefono:     24434812   
+    correo:       fortech@hotmail.com
+   
+  sitio_coopevictoria:
+    nombre:       Coopevictoria
+    descripcion:  |
+      Encargada de recolección de aceites para fabricación de biodisel. |
+      You have a minimum of 3 years experience in web development with PHP or Java and 
+      you wish to participate to development of Web 2.0 sites using
+      the best frameworks available.
+    direccion:    |
+      Grecia, Alajuela. |
+      You have a minimum of 3 years experience in web development with PHP or Java and 
+      you wish to participate to development of Web 2.0 sites using
+      the best frameworks available.
+    imagen:       coopevictoria.jpg
+    web:          www.coopevictoria.com
+    telefono:     24434812   
+    correo:       coopevictoria@hotmail.com
+ 
+

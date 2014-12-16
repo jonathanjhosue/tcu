@@ -1,0 +1,33 @@
+# data/fixtures/020_jobs.yml
+seccion:
+  seccion_inicio:
+    nombre:       Inicio
+    descripcion:  Portada (Inicio) del sitio de TCU. 
+    imagen:      ../img/inicio.png
+ 
+  seccion_noticias:
+    nombre:       Noticias
+    descripcion:  Novedades del tcu, noticias y articulos publicados. 
+    imagen:      ../img/noticias.png
+ 
+  seccion_archivo:
+    nombre:       Archivos
+    descripcion:  Archivos, documentos e información relacionados con el tcu. 
+    imagen:      ../img/archivo.png
+
+  seccion_galerias:
+    nombre:       Galerías
+    descripcion:  Imágenes, videos y presentaciones multimedia del tcu
+    imagen:      ../img/galerias.png
+
+  seccion_sitios:
+    nombre:       Sitios
+    descripcion:  |
+                  Lugares, empresas e instituciones donde resiven materiales de desecho, | 
+                  ya sea para reciclaje o para un adecuado tratamiento.
+    imagen:      ../img/sitios.png
+
+  seccion_contactos:
+    nombre:       Contactos
+    descripcion:  Información para contactos y encargados.
+    imagen:      ../img/contactos.png

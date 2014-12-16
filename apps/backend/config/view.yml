@@ -1,0 +1,17 @@
+default:
+  http_metas:
+    content-type: text/html
+
+  metas:
+    title:        Educación para el Manejo de Desechos (Administración)
+    #description:  symfony project
+    #keywords:     symfony, project
+    #language:     en
+    #robots:       index, follow
+
+  stylesheets:    [menu_tab.css, form.css,admin.css]
+
+  javascripts:    [jquery-1.3.2.min.js,kwicks.js,custom.js,tab.js,jquery.validate.min.js]
+
+  has_layout:     on
+  layout:         layout

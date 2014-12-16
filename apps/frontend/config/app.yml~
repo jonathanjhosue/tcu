@@ -1,0 +1,41 @@
+# default values
+#all:
+all:
+  max_imagenes_on_inicio:         2
+  max_anuncios_on_inicio:         3
+  max_articulos_on_inicio:        3
+  max_archivos_on_inicio:         3
+  max_articulos_pagina:           10
+  max_archivos_pagina:            20
+  max_resultados_pagina:          25
+  #maximo de iconos de fotos, galerias o archivos
+  max_iconos_pagina:              20
+
+
+    upload_dir:       uploads                  # Asset library root, under the web/ dir
+    check_type:     false                    # Set to true if you want to restrict the type of assets
+    types:            ['image', txt, archive, pdf, xls, doc, ppt]  # Accepted asset types if check_type is true
+    thumbnail_dir:    thumbnail              # Where the image thumbnails are stored
+    use_ImageMagick:  false                  # Set to true if you have the convert command
+    thumbnails:                              # Name and size (in pixels) of the thumbnails created at upload
+      small:                                 # Displayed in the list page
+        width: 100
+        height: 100
+        shave: true                          # Cut strips to constraint the image size
+      large:                                 # Displayed in the details page
+        width: 194
+        height: 152
+    search_pager_size: 20                    # Number of resuts per page
+    mass_upload_size:  5                     # Number of file upload controls displayed in the mass upload form
+
+
+
+  app_smtp_servidor:              smtp.gmail.com
+  app_smtp_usuario:               uno
+  app_smtp_contrasenia:           uno
+  app_smtp_puerto:                465
+
+  sf_guard_plugin:
+     profile_class:      Persona
+     profile_field_name: user_id
+  

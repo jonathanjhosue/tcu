@@ -1,0 +1,61 @@
+articulo:
+  class: sfPropelRouteCollection
+  options:
+    model:               Articulo
+    module:              articulo
+    prefix_path:         articulo
+    column:              id
+    with_wildcard_routes: true
+
+tipo:
+  class: sfPropelRouteCollection
+  options:
+    model:               Archivo
+    module:              archivo
+    prefix_path:         archivo
+    column:              id
+    with_wildcard_routes: true
+
+galeria:
+  class: sfPropelRouteCollection
+  options:
+    model:               Galeria
+    module:              galeria
+    prefix_path:         galeria
+    column:              id
+    with_wildcard_routes: true
+
+sitio:
+  class: sfPropelRouteCollection
+  options:
+    model:               Sitio
+    module:              sitio
+    prefix_path:         sitio
+    column:              id
+    with_wildcard_routes: true
+
+
+# default rules
+homepage:
+  url:   /
+  param: { module: inicio, action: index }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+default:
+  url:   /:module/:action/*
+
+sf_guard_signin:
+    url:   /login
+    param: { module: sfGuardAuth, action: signin }
+
+sf_guard_signout:
+    url:   /logout
+    param: { module: sfGuardAuth, action: signout }
+
+sf_guard_password:
+    url:   /request_password
+    param: { module: sfGuardAuth, action: password }
+

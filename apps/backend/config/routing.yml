@@ -1,0 +1,87 @@
+subseccion:
+  class: sfPropelRouteCollection
+  options:
+    model:               Subseccion
+    module:              subseccion
+    prefix_path:         subseccion
+    column:              id
+    with_wildcard_routes: true
+
+tipo:
+  class: sfPropelRouteCollection
+  options:
+    model:               Tipo
+    module:              tipo
+    prefix_path:         tipo
+    column:              id
+    with_wildcard_routes: true
+
+seccion:
+  class: sfPropelRouteCollection
+  options:
+    model:               Seccion
+    module:              seccion
+    prefix_path:         seccion
+    column:              id
+    with_wildcard_routes: true
+
+tcu:
+  class: sfPropelRouteCollection
+  options:
+    model:               Tcu
+    module:              tcu
+    prefix_path:         tcu
+    column:              id
+    with_wildcard_routes: true
+
+enlace:
+  class: sfPropelRouteCollection
+  options:
+    model:               Enlace
+    module:              enlace
+    prefix_path:         enlace
+    column:              id
+    with_wildcard_routes: true
+
+sitio:
+  class: sfPropelRouteCollection
+  options:
+    model:               Sitio
+    module:              sitio
+    prefix_path:         sitio
+    column:              id
+    with_wildcard_routes: true
+
+
+encargado:
+  class: sfPropelRouteCollection
+  options:
+    model:               Encargado
+    module:              encargado
+    prefix_path:         encargado
+    column:              id
+    with_wildcard_routes: true
+
+
+persona:
+  class: sfPropelRouteCollection
+  options:
+    model:               Persona
+    module:              persona
+    prefix_path:         persona
+    column:              id
+    with_wildcard_routes: true
+
+# default rules
+
+homepage:
+  url:   /
+  param: { module: inicio, action: index }
+
+default_index:
+  url:   /:module
+  param: { action: index }
+
+
+default:
+  url:   /:module/:action/*

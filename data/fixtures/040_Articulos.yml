@@ -1,0 +1,32 @@
+# data/fixtures/020_jobs.yml
+articulo:
+  articulo_desechos:
+    descripcion:  |
+      Recolección de todo tipo desechos informáticos. |
+      realizada en la UCR San Ramón de Alajuela
+    nombre:   Recolección de desechos informáticos
+    tags:    reciclaje, evento
+    texto:    |
+      El dia 01/01/01 se realizó.... |
+      Con motivo de .... development with PHP or Java and 
+      you wish to participate to development of Web 2.0 sites using
+      the best frameworks available.
+    persona_id:    persona_jonathan
+    fuente:    www
+
+  articulo_reciclaje:
+    descripcion:  |
+      El reciclaje es muy importante .... |
+      realizada en la UCR San Ramón de Alajuela
+    nombre:   que es el reciclaje 
+    tags:   reciclaje, información
+    texto:    |
+      Para comenzar necesitamos definir que es desarrollo .... |
+      Finalmente .... development with PHP or Java and 
+      you wish to participate to development of Web 2.0 sites using
+      the best frameworks available.
+    persona_id:    persona_ismael
+    fuente:    www
+ 
+
+ 

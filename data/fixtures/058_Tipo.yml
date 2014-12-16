@@ -1,0 +1,37 @@
+# data/fixtures/020_jobs.yml
+tipo:
+  tipo_imagen:
+    nombre:       Imágen
+    imagen:       imagen.png 
+
+  tipo_video:
+    nombre:       Video
+    imagen:       video.png
+
+  tipo_documento:
+    nombre:       Documento
+    imagen:       video.png
+
+  tipo_audio:
+    nombre:       Audio
+    imagen:       video.png
+
+  tipo_web:
+    nombre:       Web
+    imagen:       video.png
+
+  tipo_presentacion:
+    nombre:       Presentación
+    imagen:       video.png 
+    
+  tipo_juego:
+    nombre:       Juego
+    imagen:       video.png
+
+  tipo_comprimido:
+    nombre:       Comprimido
+    imagen:       rar.png
+
+  tipo_otros:
+    nombre:       Otros
+    imagen:       rar.png

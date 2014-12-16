@@ -1,0 +1,1209 @@
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:23:48 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+oct 19 21:23:48 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:23:48 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:23:48 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:23:48 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:23:48 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+oct 19 21:23:48 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:23:48 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/indexSuccess.php"
+oct 19 21:23:48 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:23:48 symfony [err] {PropelException} Unable to open PDO connection [wrapped: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)]
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:24:23 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+oct 19 21:24:23 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:24:23 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:24:23 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:24:23 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:24:23 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+oct 19 21:24:23 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:24:23 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/indexSuccess.php"
+oct 19 21:24:23 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:24:23 symfony [err] {PropelException} Unable to open PDO connection [wrapped: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)]
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:29:38 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+oct 19 21:29:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:29:38 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:29:38 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:29:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:29:38 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+oct 19 21:29:38 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:29:38 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/indexSuccess.php"
+oct 19 21:29:38 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:29:38 symfony [err] {PropelException} Unable to open PDO connection [wrapped: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)]
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:29:41 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+oct 19 21:29:41 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:29:41 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:29:41 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:29:41 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:29:41 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+oct 19 21:29:42 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:29:42 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/indexSuccess.php"
+oct 19 21:29:42 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:29:42 symfony [err] {PropelException} Unable to open PDO connection [wrapped: SQLSTATE[28000] [1045] Access denied for user 'root'@'localhost' (using password: YES)]
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:30:19 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+oct 19 21:30:19 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:30:19 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:30:19 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:30:19 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:30:19 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+oct 19 21:30:19 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:30:19 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/indexSuccess.php"
+oct 19 21:30:19 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:30:19 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:30:19 symfony [debug] {sfPropelLogger} prepare: SELECT seccion.ID, seccion.NOMBRE, seccion.DESCRIPCION, seccion.IMAGEN, seccion.ES_ACTIVA, seccion.CREATED_AT, seccion.UPDATED_AT FROM `seccion` WHERE seccion.ID=:p1
+oct 19 21:30:19 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} prepare: SELECT subseccion.ID, subseccion.NOMBRE, subseccion.TEXTO, subseccion.SECCION_ID, subseccion.CREATED_AT, subseccion.UPDATED_AT FROM `subseccion` WHERE subseccion.SECCION_ID=:p1
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:30:20 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_subSecciones.php"
+oct 19 21:30:20 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:30:20 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:30:20 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:30:20 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:30:20 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:30:20 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:30:20 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:30:20 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:30:20 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:30:20 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:30:20 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:30:20 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:30:20 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:30:20 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:30:20 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:30:20 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:30:20 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:30:20 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:30:20 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:30:20 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:30:20 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Configuration 1185.69 ms (16)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.31 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 709.48 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Component "inicio/subSecciones" 411.55 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Partial "inicio/_subSecciones" 2.96 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 24.71 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 2.44 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 25.28 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 3.31 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 22.39 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 3.17 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 97.04 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 14.76 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 1.79 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 32.09 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 3.44 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 18.32 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 9.14 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 26.68 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 21.94 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 2.33 ms (1)
+oct 19 21:30:20 symfony [info] {sfWebResponse} Send content (57516 o)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:32:28 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+oct 19 21:32:28 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:32:28 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:32:28 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:32:28 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:32:28 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+oct 19 21:32:28 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:32:28 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/indexSuccess.php"
+oct 19 21:32:28 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} prepare: SELECT seccion.ID, seccion.NOMBRE, seccion.DESCRIPCION, seccion.IMAGEN, seccion.ES_ACTIVA, seccion.CREATED_AT, seccion.UPDATED_AT FROM `seccion` WHERE seccion.ID=:p1
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} prepare: SELECT subseccion.ID, subseccion.NOMBRE, subseccion.TEXTO, subseccion.SECCION_ID, subseccion.CREATED_AT, subseccion.UPDATED_AT FROM `subseccion` WHERE subseccion.SECCION_ID=:p1
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:32:28 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_subSecciones.php"
+oct 19 21:32:28 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:32:28 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:32:28 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:32:28 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:32:28 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:32:28 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:32:28 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:32:28 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:32:28 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:32:28 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:32:28 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:32:28 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:32:28 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:32:28 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:32:28 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:32:28 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:32:28 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:32:28 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:32:28 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:32:28 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:32:28 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Configuration 11.17 ms (16)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.24 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 297.48 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Component "inicio/subSecciones" 57.65 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Partial "inicio/_subSecciones" 2.37 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 24.56 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 2.36 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 12.13 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 3.95 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 13.92 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 3.50 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 75.52 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 13.80 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 5.73 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 19.73 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 2.78 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 18.81 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 7.04 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 29.65 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 21.94 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 2.88 ms (1)
+oct 19 21:32:28 symfony [info] {sfWebResponse} Send content (57511 o)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:34:38 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /archivo with parameters array (  'module' => 'archivo',  'action' => 'index',)
+oct 19 21:34:38 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:34:38 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:34:38 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:34:38 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:34:38 symfony [info] {archivoActions} Call "archivoActions->executeIndex()"
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `archivo`
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` LIMIT 20
+oct 19 21:34:38 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:34:38 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/indexSuccess.php"
+oct 19 21:34:38 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} prepare: SELECT seccion.ID, seccion.NOMBRE, seccion.DESCRIPCION, seccion.IMAGEN, seccion.ES_ACTIVA, seccion.CREATED_AT, seccion.UPDATED_AT FROM `seccion` WHERE seccion.ID=:p1
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} Binding '3' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} prepare: SELECT subseccion.ID, subseccion.NOMBRE, subseccion.TEXTO, subseccion.SECCION_ID, subseccion.CREATED_AT, subseccion.UPDATED_AT FROM `subseccion` WHERE subseccion.SECCION_ID=:p1
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} Binding 3 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:38 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_subSecciones.php"
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} prepare: SELECT tipo.ID, tipo.NOMBRE, tipo.IMAGEN FROM `tipo` WHERE tipo.ID=:p1 LIMIT 1
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} prepare: SELECT tipo.ID, tipo.NOMBRE, tipo.IMAGEN FROM `tipo` WHERE tipo.ID=:p1 LIMIT 1
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} Binding 6 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:38 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_indicePaginas.php"
+oct 19 21:34:38 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:34:38 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:34:38 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:34:38 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:34:38 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:34:38 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:34:38 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:34:38 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:34:38 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:34:38 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:34:38 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:34:39 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:34:39 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:34:39 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:34:39 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:34:39 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:34:39 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:34:39 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:34:39 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:34:39 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:34:39 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:39 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:34:39 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:39 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:34:39 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:34:39 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:39 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:34:39 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:34:39 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Configuration 139.72 ms (17)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Action "archivo/index" 110.33 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} View "Success" for "archivo/index" 487.77 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Component "inicio/subSecciones" 72.73 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "inicio/_subSecciones" 5.32 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "inicio/_indicePaginas" 2.28 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 60.54 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 1.99 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 15.30 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 4.19 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 10.26 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 3.36 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 62.98 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 17.03 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 3.27 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 2.70 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 3.12 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 14.63 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 6.34 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 28.01 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 22.59 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 1.77 ms (1)
+oct 19 21:34:39 symfony [info] {sfWebResponse} Send content (50743 o)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:34:40 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+oct 19 21:34:40 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/loadingAnimation.gif" (/).
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:34:50 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /foto/show/id/72 with parameters array (  'id' => '72',  'module' => 'foto',  'action' => 'show',)
+oct 19 21:34:50 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:34:50 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:34:50 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:34:50 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:34:50 symfony [info] {fotoActions} Call "fotoActions->executeShow()"
+oct 19 21:34:50 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:34:50 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` WHERE foto.ID=:p1
+oct 19 21:34:50 symfony [debug] {sfPropelLogger} Binding '72' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:51 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:34:51 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/foto/templates/showSuccess.php"
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} prepare: SELECT galeria.ID, galeria.NOMBRE, galeria.DESCRIPCION, galeria.CREATED_AT, galeria.UPDATED_AT FROM `galeria` WHERE galeria.ID=:p1 LIMIT 1
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:51 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:34:51 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:34:51 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:34:51 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:34:51 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:34:51 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:34:51 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:34:51 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:34:51 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:34:51 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:34:51 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:34:51 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:34:51 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:34:51 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:34:51 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:34:51 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:51 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:34:51 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:34:51 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:34:51 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:34:51 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Configuration 131.11 ms (16)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Action "foto/show" 143.36 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} View "Success" for "foto/show" 480.13 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 57.45 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 1.45 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 11.23 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 4.84 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 14.95 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 2.81 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 60.08 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 19.75 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 1.82 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 15.72 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 6.39 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 1.40 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 5.88 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 28.30 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 3.07 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 1.76 ms (1)
+oct 19 21:34:51 symfony [info] {sfWebResponse} Send content (48598 o)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:35:00 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /galeria/show/id/4 with parameters array (  'id' => '4',  'module' => 'galeria',  'action' => 'show',)
+oct 19 21:35:00 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:35:00 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:35:00 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:35:00 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:35:00 symfony [info] {galeriaActions} Call "galeriaActions->executeShow()"
+oct 19 21:35:00 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:35:00 symfony [debug] {sfPropelLogger} prepare: SELECT galeria.ID, galeria.NOMBRE, galeria.DESCRIPCION, galeria.CREATED_AT, galeria.UPDATED_AT FROM `galeria` WHERE galeria.ID=:p1
+oct 19 21:35:00 symfony [debug] {sfPropelLogger} Binding '4' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:00 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `foto` WHERE foto.GALERIA_ID=:p1
+oct 19 21:35:00 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:00 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` WHERE foto.GALERIA_ID=:p1 LIMIT 20
+oct 19 21:35:00 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:00 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:35:00 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/showSuccess.php"
+oct 19 21:35:00 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_indicePaginas.php"
+oct 19 21:35:00 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:35:00 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:35:00 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:35:00 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:35:01 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:35:01 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:35:01 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:35:01 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:35:01 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:35:01 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:35:01 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:35:01 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:35:01 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:35:01 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:35:01 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:35:01 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:35:01 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:35:01 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:35:01 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:35:01 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:35:01 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:35:01 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:35:01 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:01 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:35:01 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:01 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:35:01 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:35:01 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:01 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:35:01 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:35:01 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Configuration 150.02 ms (16)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Action "galeria/show" 172.90 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} View "Success" for "galeria/show" 588.71 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Partial "inicio/_indicePaginas" 2.29 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 61.92 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 3.06 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 34.97 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 9.19 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 31.80 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 7.28 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 144.76 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 33.84 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 7.75 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 45.95 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 6.27 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 2.71 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 18.81 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 30.77 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 21.14 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 1.78 ms (1)
+oct 19 21:35:01 symfony [info] {sfWebResponse} Send content (54843 o)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:35:02 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /galeria/show/id/images/loadingAnimation.gif with parameters array (  'id' => 'images',  'loadingAnimation.gif' => true,  'module' => 'galeria',  'action' => 'show',)
+oct 19 21:35:02 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:35:02 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:35:02 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:35:02 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:35:02 symfony [info] {galeriaActions} Call "galeriaActions->executeShow()"
+oct 19 21:35:02 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:35:02 symfony [debug] {sfPropelLogger} prepare: SELECT galeria.ID, galeria.NOMBRE, galeria.DESCRIPCION, galeria.CREATED_AT, galeria.UPDATED_AT FROM `galeria` WHERE galeria.ID=:p1
+oct 19 21:35:02 symfony [debug] {sfPropelLogger} Binding 'images' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:02 symfony [err] {sfError404Exception} This request has been forwarded to a 404 error page by the action "galeria/show".
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:35:05 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /foto/show/id/66 with parameters array (  'id' => '66',  'module' => 'foto',  'action' => 'show',)
+oct 19 21:35:05 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:35:05 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:35:05 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:35:05 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:35:05 symfony [info] {fotoActions} Call "fotoActions->executeShow()"
+oct 19 21:35:05 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:35:05 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` WHERE foto.ID=:p1
+oct 19 21:35:05 symfony [debug] {sfPropelLogger} Binding '66' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:05 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:35:05 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/foto/templates/showSuccess.php"
+oct 19 21:35:06 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:35:06 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:06 symfony [debug] {sfPropelLogger} prepare: SELECT galeria.ID, galeria.NOMBRE, galeria.DESCRIPCION, galeria.CREATED_AT, galeria.UPDATED_AT FROM `galeria` WHERE galeria.ID=:p1 LIMIT 1
+oct 19 21:35:06 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:06 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:35:06 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:35:06 symfony [info] {sfWebDebugLogger} Configuration 40.44 ms (9)
+oct 19 21:35:06 symfony [info] {sfWebDebugLogger} Action "foto/show" 183.14 ms (1)
+oct 19 21:35:06 symfony [info] {sfWebDebugLogger} View "Success" for "foto/show" 134.15 ms (1)
+oct 19 21:35:06 symfony [info] {sfWebResponse} Send content (418 o)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:35:11 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /foto/show/id/62 with parameters array (  'id' => '62',  'module' => 'foto',  'action' => 'show',)
+oct 19 21:35:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:35:11 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:35:11 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:35:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:35:11 symfony [info] {fotoActions} Call "fotoActions->executeShow()"
+oct 19 21:35:11 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:35:11 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` WHERE foto.ID=:p1
+oct 19 21:35:11 symfony [debug] {sfPropelLogger} Binding '62' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:11 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:35:11 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/foto/templates/showSuccess.php"
+oct 19 21:35:11 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:35:11 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:11 symfony [debug] {sfPropelLogger} prepare: SELECT galeria.ID, galeria.NOMBRE, galeria.DESCRIPCION, galeria.CREATED_AT, galeria.UPDATED_AT FROM `galeria` WHERE galeria.ID=:p1 LIMIT 1
+oct 19 21:35:11 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:11 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:35:11 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:35:11 symfony [info] {sfWebDebugLogger} Configuration 6.48 ms (9)
+oct 19 21:35:11 symfony [info] {sfWebDebugLogger} Action "foto/show" 193.89 ms (1)
+oct 19 21:35:11 symfony [info] {sfWebDebugLogger} View "Success" for "foto/show" 127.53 ms (1)
+oct 19 21:35:11 symfony [info] {sfWebResponse} Send content (422 o)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:35:21 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /foto/show/id/65 with parameters array (  'id' => '65',  'module' => 'foto',  'action' => 'show',)
+oct 19 21:35:21 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:35:21 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:35:21 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:35:21 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:35:21 symfony [info] {fotoActions} Call "fotoActions->executeShow()"
+oct 19 21:35:22 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:35:22 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` WHERE foto.ID=:p1
+oct 19 21:35:22 symfony [debug] {sfPropelLogger} Binding '65' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:22 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:35:22 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/foto/templates/showSuccess.php"
+oct 19 21:35:22 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:35:22 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:22 symfony [debug] {sfPropelLogger} prepare: SELECT galeria.ID, galeria.NOMBRE, galeria.DESCRIPCION, galeria.CREATED_AT, galeria.UPDATED_AT FROM `galeria` WHERE galeria.ID=:p1 LIMIT 1
+oct 19 21:35:22 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:22 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:35:22 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:35:22 symfony [info] {sfWebDebugLogger} Configuration 3.82 ms (9)
+oct 19 21:35:22 symfony [info] {sfWebDebugLogger} Action "foto/show" 90.46 ms (1)
+oct 19 21:35:22 symfony [info] {sfWebDebugLogger} View "Success" for "foto/show" 69.38 ms (1)
+oct 19 21:35:22 symfony [info] {sfWebResponse} Send content (418 o)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:35:34 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /sitio with parameters array (  'module' => 'sitio',  'action' => 'index',)
+oct 19 21:35:34 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:35:34 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:35:34 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:35:34 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:35:34 symfony [info] {sitioActions} Call "sitioActions->executeIndex()"
+oct 19 21:35:34 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:35:34 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `sitio`
+oct 19 21:35:34 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio`
+oct 19 21:35:34 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:35:34 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/indexSuccess.php"
+oct 19 21:35:34 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:35:34 symfony [debug] {sfPropelLogger} prepare: SELECT seccion.ID, seccion.NOMBRE, seccion.DESCRIPCION, seccion.IMAGEN, seccion.ES_ACTIVA, seccion.CREATED_AT, seccion.UPDATED_AT FROM `seccion` WHERE seccion.ID=:p1
+oct 19 21:35:34 symfony [debug] {sfPropelLogger} Binding '5' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:34 symfony [debug] {sfPropelLogger} prepare: SELECT subseccion.ID, subseccion.NOMBRE, subseccion.TEXTO, subseccion.SECCION_ID, subseccion.CREATED_AT, subseccion.UPDATED_AT FROM `subseccion` WHERE subseccion.SECCION_ID=:p1
+oct 19 21:35:34 symfony [debug] {sfPropelLogger} Binding 5 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:34 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_subSecciones.php"
+oct 19 21:35:34 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_indicePaginas.php"
+oct 19 21:35:34 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:35:34 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:35:34 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:35:34 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:35:34 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:35:34 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:35:34 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:35:35 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:35:35 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:35:35 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:35:35 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:35:35 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:35:35 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:35:35 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:35:35 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:35:35 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:35:35 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:35:35 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:35:35 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:35:35 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:35:35 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:35:35 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:35:35 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:35 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:35:35 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:35 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:35:35 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:35:35 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:35 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:35:35 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:35:35 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Configuration 119.27 ms (17)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Action "sitio/index" 92.86 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} View "Success" for "sitio/index" 681.55 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Component "inicio/subSecciones" 70.90 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "inicio/_subSecciones" 2.36 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "inicio/_indicePaginas" 2.28 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 60.10 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 3.63 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 5.63 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 13.76 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 31.81 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 7.38 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 188.86 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 42.23 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 4.51 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 44.38 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 13.73 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 43.00 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 19.98 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 66.76 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 62.27 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 14.74 ms (1)
+oct 19 21:35:35 symfony [info] {sfWebResponse} Send content (51220 o)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:35:59 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+oct 19 21:35:59 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:35:59 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:35:59 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:35:59 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:35:59 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+oct 19 21:35:59 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:35:59 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/indexSuccess.php"
+oct 19 21:35:59 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:35:59 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:35:59 symfony [debug] {sfPropelLogger} prepare: SELECT seccion.ID, seccion.NOMBRE, seccion.DESCRIPCION, seccion.IMAGEN, seccion.ES_ACTIVA, seccion.CREATED_AT, seccion.UPDATED_AT FROM `seccion` WHERE seccion.ID=:p1
+oct 19 21:35:59 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:59 symfony [debug] {sfPropelLogger} prepare: SELECT subseccion.ID, subseccion.NOMBRE, subseccion.TEXTO, subseccion.SECCION_ID, subseccion.CREATED_AT, subseccion.UPDATED_AT FROM `subseccion` WHERE subseccion.SECCION_ID=:p1
+oct 19 21:35:59 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:35:59 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_subSecciones.php"
+oct 19 21:35:59 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:35:59 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:35:59 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:35:59 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:35:59 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:35:59 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:35:59 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:35:59 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:35:59 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:35:59 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:35:59 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:35:59 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:35:59 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:35:59 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:35:59 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:35:59 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:36:00 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:36:00 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:36:00 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:36:00 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:36:00 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:36:00 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:36:00 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:36:00 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:36:00 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:36:00 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:36:00 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:36:00 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:36:00 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:36:00 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:36:00 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Configuration 16.46 ms (16)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.57 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 837.90 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Component "inicio/subSecciones" 142.20 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Partial "inicio/_subSecciones" 5.94 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 60.34 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 4.62 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 28.89 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 12.69 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 31.16 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 6.22 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 194.18 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 43.78 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 5.17 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 47.02 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 13.29 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 43.85 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 19.66 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 125.46 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 109.23 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 13.10 ms (1)
+oct 19 21:36:00 symfony [info] {sfWebResponse} Send content (57611 o)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:36:24 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /sitio with parameters array (  'module' => 'sitio',  'action' => 'index',)
+oct 19 21:36:24 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:36:24 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:36:24 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:36:24 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:36:24 symfony [info] {sitioActions} Call "sitioActions->executeIndex()"
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `sitio`
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio`
+oct 19 21:36:25 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:36:25 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/indexSuccess.php"
+oct 19 21:36:25 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT seccion.ID, seccion.NOMBRE, seccion.DESCRIPCION, seccion.IMAGEN, seccion.ES_ACTIVA, seccion.CREATED_AT, seccion.UPDATED_AT FROM `seccion` WHERE seccion.ID=:p1
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} Binding '5' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT subseccion.ID, subseccion.NOMBRE, subseccion.TEXTO, subseccion.SECCION_ID, subseccion.CREATED_AT, subseccion.UPDATED_AT FROM `subseccion` WHERE subseccion.SECCION_ID=:p1
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} Binding 5 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_subSecciones.php"
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_indicePaginas.php"
+oct 19 21:36:25 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:36:25 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:36:25 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:36:25 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:36:25 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:36:25 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:36:25 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:36:25 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:36:25 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:36:25 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:36:25 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:36:25 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Configuration 22.95 ms (16)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Action "sitio/index" 109.78 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} View "Success" for "sitio/index" 601.25 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Component "inicio/subSecciones" 68.94 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "inicio/_subSecciones" 2.32 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "inicio/_indicePaginas" 3.08 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 55.58 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 6.12 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 3.75 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 13.86 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 26.43 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 7.20 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 235.17 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 39.25 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 3.97 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 79.81 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 9.51 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 55.30 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 16.55 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 32.06 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 20.69 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 1.78 ms (1)
+oct 19 21:36:25 symfony [info] {sfWebResponse} Send content (51177 o)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:38:11 symfony [info] {sfPatternRouting} Match route "homepage" (/) for / with parameters array (  'module' => 'inicio',  'action' => 'index',)
+oct 19 21:38:11 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:38:11 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:38:11 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:38:11 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:38:11 symfony [info] {inicioActions} Call "inicioActions->executeIndex()"
+oct 19 21:38:11 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:38:11 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/indexSuccess.php"
+oct 19 21:38:11 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} prepare: SELECT seccion.ID, seccion.NOMBRE, seccion.DESCRIPCION, seccion.IMAGEN, seccion.ES_ACTIVA, seccion.CREATED_AT, seccion.UPDATED_AT FROM `seccion` WHERE seccion.ID=:p1
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} prepare: SELECT subseccion.ID, subseccion.NOMBRE, subseccion.TEXTO, subseccion.SECCION_ID, subseccion.CREATED_AT, subseccion.UPDATED_AT FROM `subseccion` WHERE subseccion.SECCION_ID=:p1
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:11 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_subSecciones.php"
+oct 19 21:38:11 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:38:11 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:38:11 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:38:11 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:38:11 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:38:11 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:38:11 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:38:11 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:38:11 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:38:11 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:38:11 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:38:11 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:38:11 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:38:11 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:38:11 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:38:11 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:38:11 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:12 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:38:12 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:38:12 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:12 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:38:12 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:38:12 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Configuration 5.28 ms (16)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Action "inicio/index" 0.28 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} View "Success" for "inicio/index" 363.13 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Component "inicio/subSecciones" 109.86 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Partial "inicio/_subSecciones" 2.87 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 25.60 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 1.43 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 13.98 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 3.21 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 14.96 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 2.81 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 80.96 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 19.71 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 1.79 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 17.63 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 7.32 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 18.00 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 8.39 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 29.31 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 22.68 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 1.79 ms (1)
+oct 19 21:38:12 symfony [info] {sfWebResponse} Send content (57456 o)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:38:14 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /foto/show/id/72 with parameters array (  'id' => '72',  'module' => 'foto',  'action' => 'show',)
+oct 19 21:38:14 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:38:14 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:38:14 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:38:14 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:38:14 symfony [info] {fotoActions} Call "fotoActions->executeShow()"
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` WHERE foto.ID=:p1
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} Binding '72' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:14 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:38:14 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/foto/templates/showSuccess.php"
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} prepare: SELECT galeria.ID, galeria.NOMBRE, galeria.DESCRIPCION, galeria.CREATED_AT, galeria.UPDATED_AT FROM `galeria` WHERE galeria.ID=:p1 LIMIT 1
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:14 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:38:14 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:38:14 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:38:14 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:38:14 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:38:14 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:38:14 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:38:14 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:38:14 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:38:14 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:38:14 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:38:14 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:38:14 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:38:14 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:38:14 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:38:14 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:14 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:38:14 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:14 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:38:14 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:38:14 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Configuration 5.19 ms (15)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Action "foto/show" 41.73 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} View "Success" for "foto/show" 234.79 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 27.58 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 2.96 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 11.35 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 3.18 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 15.23 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 2.81 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 59.73 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 14.99 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 2.39 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 18.29 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 2.85 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 1.42 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 8.15 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 22.86 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 4.81 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 1.78 ms (1)
+oct 19 21:38:14 symfony [info] {sfWebResponse} Send content (48585 o)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:38:16 symfony [info] {sfPatternRouting} Match route "default" (/:module/:action/*) for /foto/show/id/73 with parameters array (  'id' => '73',  'module' => 'foto',  'action' => 'show',)
+oct 19 21:38:16 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:38:16 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:38:16 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:38:16 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:38:16 symfony [info] {fotoActions} Call "fotoActions->executeShow()"
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` WHERE foto.ID=:p1
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} Binding '73' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:16 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:38:16 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/foto/templates/showSuccess.php"
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} Binding 1 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} prepare: SELECT galeria.ID, galeria.NOMBRE, galeria.DESCRIPCION, galeria.CREATED_AT, galeria.UPDATED_AT FROM `galeria` WHERE galeria.ID=:p1 LIMIT 1
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:16 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:38:16 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:38:16 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:38:16 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:38:16 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:38:16 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:38:16 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:38:16 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:38:16 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:38:16 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:38:16 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:38:16 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:38:16 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:38:16 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:38:16 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:38:16 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:16 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:38:16 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:16 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:38:16 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:38:16 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Configuration 6.32 ms (15)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Action "foto/show" 44.63 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} View "Success" for "foto/show" 241.39 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 24.88 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 1.55 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 12.42 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 4.08 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 14.92 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 3.73 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 59.24 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 16.11 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 2.57 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 20.75 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 3.00 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 1.64 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 6.26 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 32.09 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 3.73 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 1.92 ms (1)
+oct 19 21:38:16 symfony [info] {sfWebResponse} Send content (48600 o)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+Oct 19 21:38:18 symfony [info] {sfPatternRouting} Match route "default_index" (/:module) for /galeria with parameters array (  'module' => 'galeria',  'action' => 'index',)
+oct 19 21:38:18 symfony [info] {sfFilterChain} Executing filter "sfRenderingFilter"
+oct 19 21:38:18 symfony [info] {sfFilterChain} Executing filter "sfJqueryFormValidationFilter"
+oct 19 21:38:18 symfony [info] {sfFilterChain} Executing filter "sfCommonFilter"
+oct 19 21:38:18 symfony [info] {sfFilterChain} Executing filter "sfExecutionFilter"
+oct 19 21:38:18 symfony [info] {galeriaActions} Call "galeriaActions->executeIndex()"
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} exec: SET NAMES 'utf8'
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT COUNT(*) FROM `galeria`
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT galeria.ID, galeria.NOMBRE, galeria.DESCRIPCION, galeria.CREATED_AT, galeria.UPDATED_AT FROM `galeria` LIMIT 20
+oct 19 21:38:18 symfony [info] {sfPHPView} Set component "lateral" (usuario/logueo)
+oct 19 21:38:18 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/indexSuccess.php"
+oct 19 21:38:18 symfony [info] {main} Call "inicio->executeSubSecciones()"
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT seccion.ID, seccion.NOMBRE, seccion.DESCRIPCION, seccion.IMAGEN, seccion.ES_ACTIVA, seccion.CREATED_AT, seccion.UPDATED_AT FROM `seccion` WHERE seccion.ID=:p1
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} Binding '4' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT subseccion.ID, subseccion.NOMBRE, subseccion.TEXTO, subseccion.SECCION_ID, subseccion.CREATED_AT, subseccion.UPDATED_AT FROM `subseccion` WHERE subseccion.SECCION_ID=:p1
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} Binding 4 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_subSecciones.php"
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_indicePaginas.php"
+oct 19 21:38:18 symfony [info] {sfPHPView} Decorate content with "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:38:18 symfony [info] {sfPHPView} Render "/home/jonathan/www/tcu/apps/frontend/templates/layout.php"
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_logueo.php"
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/busqueda/templates/_busqueda.php"
+oct 19 21:38:18 symfony [info] {main} Call "sitio->executeAzarSitio()"
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT sitio.ID, sitio.NOMBRE, sitio.DESCRIPCION, sitio.DIRECCION, sitio.IMAGEN, sitio.WEB, sitio.TELEFONO, sitio.CORREO FROM `sitio` ORDER BY rand() DESC LIMIT 1
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/sitio/templates/_azarSitio.php"
+oct 19 21:38:18 symfony [info] {main} Call "inicio->executeAzarEnlaces()"
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT enlace.ID, enlace.NOMBRE, enlace.DESCRIPCION, enlace.WEB, enlace.IMAGEN, enlace.CREATED_AT, enlace.UPDATED_AT FROM `enlace` ORDER BY rand() DESC LIMIT 3
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_azarEnlaces.php"
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_novedades.php"
+oct 19 21:38:18 symfony [info] {main} Call "articulo->executeUltimos()"
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT articulo.ID, articulo.NOMBRE, articulo.DESCRIPCION, articulo.TEXTO, articulo.PERSONA_ID, articulo.FUENTE, articulo.TAGS, articulo.CREATED_AT, articulo.UPDATED_AT FROM `articulo` ORDER BY articulo.CREATED_AT DESC LIMIT 3
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/articulo/templates/_ultimos.php"
+oct 19 21:38:18 symfony [info] {main} Call "archivo->executeUltimos()"
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT archivo.ID, archivo.NOMBRE, archivo.DESCRIPCION, archivo.ARCHIVO, archivo.PERSONA_ID, archivo.TIPO_ID, archivo.CREATED_AT, archivo.UPDATED_AT FROM `archivo` ORDER BY archivo.CREATED_AT DESC LIMIT 3
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/archivo/templates/_ultimos.php"
+oct 19 21:38:18 symfony [info] {main} Call "galeria->executeUltimos()"
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT foto.ID, foto.NOMBRE, foto.DESCRIPCION, foto.IMAGEN, foto.PERSONA_ID, foto.GALERIA_ID, foto.CREATED_AT, foto.UPDATED_AT FROM `foto` ORDER BY foto.CREATED_AT DESC LIMIT 2
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/galeria/templates/_ultimos.php"
+oct 19 21:38:18 symfony [info] {main} Call "inicio->executeTcu()"
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT encargado.ID, encargado.PERSONA_ID, encargado.CORREO, encargado.HORARIO, encargado.UPDATED_AT FROM `encargado` WHERE encargado.ID=:p1
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT tcu.ID, tcu.CODIGO, tcu.NOMBRE, tcu.IMAGEN, tcu.CREATED_AT, tcu.UPDATED_AT FROM `tcu` WHERE tcu.ID=:p1
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} Binding '1' at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/modules/inicio/templates/_tcu.php"
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} prepare: SELECT persona.ID, persona.USER_ID, persona.NOMBRE, persona.TELEFONO1, persona.TELEFONO2, persona.CORREO, persona.DATOS, persona.CREATED_AT, persona.UPDATED_AT FROM `persona` WHERE persona.ID=:p1 LIMIT 1
+oct 19 21:38:18 symfony [debug] {sfPropelLogger} Binding 2 at position :p1 w/ PDO type PDO::PARAM_INT
+oct 19 21:38:18 symfony [info] {sfPartialView} Render "/home/jonathan/www/tcu/apps/frontend/templates/_mensajes.php"
+oct 19 21:38:18 symfony [info] {sfWebResponse} Send status "HTTP/1.1 200 OK"
+oct 19 21:38:18 symfony [info] {sfWebResponse} Send header "Content-Type: text/html; charset=utf-8"
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Configuration 7.19 ms (16)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Action "galeria/index" 36.09 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} View "Success" for "galeria/index" 278.76 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Component "inicio/subSecciones" 25.41 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "inicio/_subSecciones" 1.26 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "inicio/_indicePaginas" 1.14 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "inicio/_logueo" 20.95 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "busqueda/_busqueda" 1.55 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Component "sitio/azarSitio" 11.29 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "sitio/_azarSitio" 4.70 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Component "inicio/azarEnlaces" 15.80 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "inicio/_azarEnlaces" 3.02 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "inicio/_novedades" 79.56 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Component "articulo/ultimos" 15.55 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "articulo/_ultimos" 3.66 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Component "archivo/ultimos" 20.71 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "archivo/_ultimos" 3.70 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Component "galeria/ultimos" 17.49 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "galeria/_ultimos" 8.72 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Component "inicio/tcu" 27.50 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "inicio/_tcu" 23.63 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebDebugLogger} Partial "global/_mensajes" 3.41 ms (1)
+oct 19 21:38:18 symfony [info] {sfWebResponse} Send content (51128 o)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "homepage" (/)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "default_index" (/:module)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "default" (/:module/:action/*)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signout" (/logout)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_password" (/request_password)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_guard_signin" (/login)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_asset_library_dir" (/sfAsset/dir/:dir)
+Oct 19 21:38:19 symfony [info] {sfPatternRouting} Connect sfRoute "sf_jquery_form_validation" (/sfJqueryFormVal/:form)
+oct 19 21:38:19 symfony [err] {sfError404Exception} Empty module and/or action after parsing the URL "/images/loadingAnimation.gif" (/).

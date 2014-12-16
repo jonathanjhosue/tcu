@@ -1,0 +1,36 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Seccion
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          seccion
+    with_propel_route:     1
+
+    config:
+      actions: ~
+      fields:
+        descripcion: { label: Descripción }
+        es_activa: { label: ¿Está activo?, help: Si la sección está activa o no }
+        imagen: {  label: Imágen, help: Se recomiendan imágenes de menos de 250 x 250 pixeles }
+      list:
+        title: Secciones
+        display: [=id, =nombre, descripcion, es_activa]
+        max_per_page: 10
+        batch_actions: {}
+        actions:  {}
+        object_actions:
+          _edit:      { label: Editar }
+      filter:
+          display: [nombre, descripcion,es_activa]
+      form:
+          display: [nombre, descripcion,es_activa, imagen]
+      edit:
+        title: Edición de "%%nombre%%"
+        actions:
+          _list: { label: Cancelar }
+          _save:   { label: Guardar }
+      new:     ~

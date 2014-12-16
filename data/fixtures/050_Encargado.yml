@@ -1,0 +1,6 @@
+# data/fixtures/020_jobs.yml
+encargado:
+  encargado_ismael:
+    persona_id:   persona_ismael
+    correo:        ismael@ucr.ac.cr
+    horario:      Lunes 2-5

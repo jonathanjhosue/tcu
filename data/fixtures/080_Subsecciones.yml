@@ -1,0 +1,17 @@
+# data/fixtures/020_jobs.yml
+subseccion:
+  subseccion_introduccion:
+    nombre:       Introducción
+    texto:        <p>sde</p>
+    seccion_id:   seccion_inicio
+
+  subseccion_objetivos:
+    nombre:       Objetivos
+    texto:        <p>sde</p>
+    seccion_id:   seccion_inicio
+
+  subseccion_informacion:
+    nombre:       Información
+    texto:        <p>sde</p>
+    seccion_id:   seccion_inicio
+

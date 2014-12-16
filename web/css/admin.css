@@ -1,0 +1,149 @@
+html
+{
+  background-color: transparent;
+}
+
+body
+{
+  background: url('../images/wall.jpg');
+  background-attachment:fixed;
+padding: 0px;
+margin: 0px;
+}
+
+/* ----------banner for logo-------------- */
+#banner {
+background-color: #43ADE7;
+text-align: right;
+padding: 0px;
+margin: 0px;
+border-bottom:1px solid #564b47;
+}
+#banner #escudo {
+     float: left;
+	margin: 0 0 0px 0px;
+     }
+#banner #cintillo {
+
+    padding:0px;
+
+    }
+
+#derecha {
+    margin: 0px 0px 0px auto;
+    display:block;
+    }
+
+#container
+{
+  width: 100%;
+}
+
+#content
+{
+  padding: 5px 25px 25px 25px;
+  background: url('../images/blanco.png');
+}
+
+#sf_admin_container th
+{
+ background-image: url('../images/azul.png');
+ background-color:transparent;
+  white-space: nowrap;
+}
+
+#sf_admin_container tr
+{
+  background-color: transparent;
+  border-left: 1px solid #ddd;
+  border-right: 1px solid #ddd;
+}
+
+#menu li
+{
+  margin-right: 15px;
+  display: inline;
+}
+
+#content h1
+{
+  padding: 0;
+  margin: 5px;
+  font-size: 140%;
+  color: #000;
+  display:block;
+  background-color:transparent;
+}
+
+td, th
+{
+  padding: 7px;
+}
+
+th
+{
+  font-weight: bold;
+}
+
+#footer
+{
+  clear: both;
+  padding: 25px;
+  margin-top: 0;
+  height: auto;
+  font-family: arial,sans-serif;
+  font-size: 80%;
+  float: right;
+  color: #333;
+  background: transparent;
+}
+
+
+#footer img
+{
+  vertical-align: middle;
+}
+
+#sf_admin_container fieldset h2
+{
+  font-size: 110%;
+  font-family: arial,sans-serif;
+  font-style: italic;
+  float:none;
+}
+
+.sf_admin_form_field_logo div div
+{
+  margin-left: 120px;
+}
+
+#sf_admin_container .sf_admin_form_field_logo div div label
+{
+  display: inline;
+  float: none;
+}
+
+#header h1
+{
+  width: auto;
+}
+
+
+#sf_admin_list
+{
+  border:1px solid #aaa;
+  margin:15px;
+}
+
+#sf_admin_content table
+{
+  border:1px solid #aaa;
+}
+
+#sf_admin_content table * td
+{
+    background:transparent;
+  border:1px solid #aaa;
+}
+
+

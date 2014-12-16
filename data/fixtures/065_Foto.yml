@@ -1,0 +1,24 @@
+foto:
+  foto_1:
+    nombre:       img TCU
+    descripcion:  |
+      video Manejo de desechos. |
+      You have a minimum of 3 years experience in web development with PHP or Java and
+      you wish to participate to development of Web 2.0 sites using
+      the best frameworks available
+    galeria_id:   galeria_dtucrso
+    imagen:   25.jpg
+    persona_id:   persona_jonathan
+
+  foto_2:
+    nombre:       img TCU
+    descripcion:  |
+      video Manejo de desechos. |
+      You have a minimum of 3 years experience in web development with PHP or Java and
+      you wish to participate to development of Web 2.0 sites using
+      the best frameworks available
+    galeria_id:   galeria_dtucrso
+    imagen:   28.jpg
+    persona_id:   persona_jonathan
+
+

@@ -1,0 +1,27 @@
+# data/fixtures/020_jobs.yml
+persona:
+  persona_jonathan:
+    nombre:       Jonathan Sánchez Ugalde
+    user_id:      usuario
+    telefono1:    24434812
+    telefono2:    24434812
+    correo:       jhozue@hotmail.com
+    datos:  |
+      Estudiante de Informática Empresarial. |
+      You have a minimum of 3 years experience in web development with PHP or Java and 
+      you wish to participate to development of Web 2.0 sites using
+      the best frameworks available.
+
+  persona_ismael:
+    nombre:       Ismael Guido
+    user_id:      admin
+    telefono1:    85688748
+    telefono2:    35451578
+    correo:       ismael@hotmail.com
+    datos:  |
+      Encargado de TCU manejo de desechos. |
+      You have a minimum of 3 years experience in web development with PHP or Java and 
+      you wish to participate to development of Web 2.0 sites using
+      the best frameworks available.
+ 
+

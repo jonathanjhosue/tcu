@@ -1,0 +1,7 @@
+# data/fixtures/020_jobs.yml
+galeria:
+  galeria_dtucrso:
+    nombre:       Desechos Tecnológicos UCR SO
+    descripcion:  |
+      Campaña de recolección de desechos tecnológicos |
+      Realizada en la UCR sede de occidente.

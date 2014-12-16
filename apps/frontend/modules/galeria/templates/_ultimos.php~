@@ -1,0 +1,29 @@
+<div>
+
+      <table border="0" cellspacing="1">
+        <thead>
+            <tr>
+                <th>Imágenes al Azar</th>
+            </tr>
+        </thead>
+        <tbody>
+         <?php foreach($ultimos as $headline): ?>
+            <tr>
+                <td>
+                <?php echo link_to(image_tag('/uploads/galerias/'.$headline->getArchivo(),'alt_title=Imágen  '.$headline->getNombre().' width=150'), 'galeria/show?id='.$headline->getId()) ?>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                 <?php echo link_to($headline->getNombre(),'galeria/show?id='.$headline->getId()) ?>
+                </td>
+            </tr>
+             <tr>
+                <td>
+                   <hr/>
+                </td>
+            </tr>
+                  <?php endforeach ?>
+        </tbody>
+    </table>
+    </div>

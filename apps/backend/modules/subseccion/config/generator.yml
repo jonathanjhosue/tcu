@@ -1,0 +1,33 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Subseccion
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             false
+    singular:              ~
+    plural:                ~
+    route_prefix:          subseccion
+    with_propel_route:     1
+
+    config:
+      actions: ~
+      fields:
+          seccion: { label: Sección }
+          seccion_id: { label: Sección }
+      list:
+        title: Subsecciones
+        display: [=id, =nombre, seccion]
+        max_per_page: 10
+        batch_actions: {}
+        object_actions:
+          _edit:      { label: Editar }
+          _delete:    { label: Borrar , confirm: ¿Estás seguro de borrar la sección?}
+      filter:
+          display: [nombre, seccion_id, texto ]
+      form:
+          display: [nombre, seccion_id, texto]
+      edit:
+          title: Editar Sección
+      new:
+          title: Nueva Sección

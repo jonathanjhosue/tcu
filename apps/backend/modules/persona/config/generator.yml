@@ -1,0 +1,41 @@
+generator:
+  class: sfPropelGenerator
+  param:
+    model_class:           Persona
+    theme:                 admin
+    non_verbose_templates: true
+    with_show:             true
+    singular:              ~
+    plural:                ~
+    route_prefix:          persona
+    with_propel_route:     1
+
+    config:
+      actions: ~
+      fields:  ~
+      list:    
+        title: Personas
+        display: [=id, nombre, telefono1, correo, datos]
+        sort:    [id, desc]
+        max_per_page: 10
+        batch_actions: {}
+        actions:
+          _new: { label: Nueva }
+        object_actions:
+          _edit:      { label: Editar }
+          _delete:    { label: Borrar, confirm: ¿Estás seguro de borrar la persona?\n si tiene usuario también se borrará }
+      filter:  
+        display: [nombre, correo, datos]       
+      form:    ~
+      edit:    
+        title: Edición de "%%nombre%%"
+        actions:
+          _delete: { label: Borrar,  confirm: ¿Estás seguro de borrar la persona?\n si tiene usuario también se borrará }
+          _list: { label: Cancelar }
+          _save:   { label: Guardar }
+      new:     
+        title: Nueva Persona
+        actions:
+          _list: { label: Cancelar }
+          _save:   { label: Guardar }
+          _save_and_add:   { label: Guardar y agregar otro}

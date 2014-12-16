@@ -1,0 +1,46 @@
+sfGuardUser:
+  admin:
+    username:       administrador
+    password:       administrador
+    is_super_admin: true
+
+  usuario:
+    username:       usuario
+    password:       usuario
+    is_super_admin: false
+
+sfGuardPermission:
+  admin:
+    name:           admin
+    description:    Administrator permission
+
+  usuario:
+    name:           usuario
+    description:    usuario permission
+
+sfGuardGroup:
+  admin:
+    name:           admin
+    description:    Administrator group
+
+  usuario:
+    name:           usuario
+    description:    usuario group
+
+sfGuardGroupPermission:
+  admin:
+    group_id:       admin
+    permission_id:  admin
+
+  usuario:
+    group_id:       usuario
+    permission_id:  usuario
+
+sfGuardUserGroup:
+  admin:
+    group_id:       admin
+    user_id:        admin
+
+  admin:
+    group_id:       usuario
+    user_id:        usuario
